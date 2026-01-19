@@ -231,7 +231,7 @@ export default function HomePage() {
           <motion.div
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 0, y: -20 }}
+          exit={{ opacity: 0, y: -20 }}
           className="fixed inset-x-0 top-20 z-50 bg-white dark:bg-gray-900 border-b shadow-lg px-6 py-5 lg:hidden"
         >
         <div className="max-w-2xl mx-auto">
