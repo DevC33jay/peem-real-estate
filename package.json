@@ -8,9 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "biome check",
-    "format": "biome format --write",
-    "predeploy": "npm run build && touch out/.nojekyll",
-    "deploy": "gh-pages -d out --dotfiles"
+    "format": "biome format --write"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
