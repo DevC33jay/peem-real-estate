@@ -166,7 +166,7 @@ export default function HomePage() {
             <div className="w-12 h-12 bg-green-600 rounded-full flex items-center justify-center text-white font-bold text-2xl group-hover:scale-110 transition">
               P
             </div>
-            <span className="text-lg lg:text-lg font-bold text-green-700 dark:text-green-400">Peem Real Estate Enterprise</span>
+            <span className="text-lg lg:text-lg sm:text-sm font-bold text-green-700 dark:text-green-400">Peem Real Estate Enterprise</span>
           </button>
 
           {/* Desktop Links */}
