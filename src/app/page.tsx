@@ -297,7 +297,7 @@ export default function HomePage() {
         </section>
 
         {/* SEARCH BAR – Smaller & Elegant on ALL Devices */}
-        <section className="sticky top-20 z-40 bg-gray-50 dark:bg-gray-900 border-b py-5 sm:hidden lg:block">
+        <section className="hidden md:block sticky top-20 z-40 bg-gray-50 dark:bg-gray-900 border-b py-5">
           <div className="max-w-xl mx-auto px-3"> {/* ← Reduced from max-w-7xl to max-w-5xl */}
             {/* Compact grid – 1 column mobile, 4 columns desktop */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 lg:gap-4">
