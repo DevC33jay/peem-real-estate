@@ -454,7 +454,7 @@ export default function HomePage() {
         {/* CONTACT SECTION */}
         <section id="contact" className="py-24 bg-green-700 dark:bg-green-900 text-white">
           <div className="max-w-4xl mx-auto px-6 text-center">
-            <h2 className="text-4xl md:text-6xl font-bold mb-8">Let’s Find Your Dream Home</h2>
+            <h2 className="text-2xl md:text-4xl font-bold mb-8">Let’s Find Your Dream Home</h2>
             <form onSubmit={handleContactSubmit} className="space-y-6 max-w-xl mx-auto">
               <div className="grid md:grid-cols-2 gap-6">
                 <Input placeholder="Your Name" value={formData.name} onChange={(e) => setFormData({ ...formData, name: e.target.value })} className="bg-white/10 border-white/20 placeholder:text-white/70" required />
