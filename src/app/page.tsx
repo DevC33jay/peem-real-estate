@@ -489,7 +489,7 @@ export default function HomePage() {
                 <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center text-4xl font-bold text-white">P</div>
                 <span className="text-md md:text-md lg:text-md font-bold text-green-400">Peem Real Estate Enterprise</span>
               </button>
-              <p className="text-gray-400">Luxury redefined in Nigerian real estate, We Sell, We Buy, We Design Properties.</p>
+              <p className="text-gray-400">Luxury redefined in Nigerian real estate, We Sell, We Buy, We Develop Properties.</p>
             </div>
 
             <div>
